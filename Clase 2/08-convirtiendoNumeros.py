@@ -51,8 +51,8 @@ def string2number(string):
   else:
     return sign*number
 
-print(string2number("   +123   "))
-print(string2number(" 4 5 6 "))
-print(string2number(" -789 "))
-print(string2number(" - 123 "))
-print(string2number("456"))
+print(string2number("   +123   ")) #Se espera 123
+print(string2number(" 4 5 6 ")) #Se espera None
+print(string2number(" -789 ")) #Se espera -789
+print(string2number(" - 123 ")) #Se espera None
+print(string2number("456")) #Se espera 456
